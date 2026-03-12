@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-dashboard",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/tmp/streamlit_serve.py"],
+      "port": 8501
+    },
+    {
+      "name": "docker-infra",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "up"],
+      "port": 8080
+    }
+  ]
+}
